@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaLongArrowAltRight } from "react-icons/fa";

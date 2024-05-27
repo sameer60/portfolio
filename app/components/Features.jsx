@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { ImMobile2 } from "react-icons/im";
 import { BsStars } from "react-icons/bs";
