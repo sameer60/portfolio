@@ -3,6 +3,8 @@
 import Link from "next/link";
 import React from "react";
 import { FaCode } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -13,14 +15,14 @@ const Footer = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+          <FaLinkedin className="w-8 h-8 text-blue-700" />
         </a>
         <a
           href="https://twitter.com/sameer_on_x"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+          <FaSquareXTwitter className="w-8 h-8" />
         </a>
       </div>
       <nav className="flex justify-center flex-wrap gap-6 font-medium">

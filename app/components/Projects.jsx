@@ -24,11 +24,8 @@ const Projects = () => {
               <span className="w-3 h-3 rounded-full bg-red-400"></span>
               <span className="w-3 h-3 rounded-full bg-yellow-400"></span>
               <span className="w-3 h-3 rounded-full bg-green-400"></span>
-              <div
-                className="flex justify-center flex-wrap p-4"
-                style={{ marginLeft: "110px" }}
-              >
-                <span className="bg-base-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600">
+              <div className="flex items-center ml-28 w-72 overflow-hidden">
+                <span className="bg-base-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 truncate">
                   https://sameer-jobby-app.vercel.app
                 </span>
               </div>
@@ -50,11 +47,8 @@ const Projects = () => {
               <span className="w-3 h-3 rounded-full bg-red-400"></span>
               <span className="w-3 h-3 rounded-full bg-yellow-400"></span>
               <span className="w-3 h-3 rounded-full bg-green-400"></span>
-              <div
-                className="flex justify-center flex-wrap p-4"
-                style={{ marginLeft: "110px" }}
-              >
-                <span className="bg-base-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600">
+              <div className="flex items-center ml-28 w-72 overflow-hidden">
+                <span className="bg-base-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 truncate">
                   https://get-current-weather.vercel.app
                 </span>
               </div>
