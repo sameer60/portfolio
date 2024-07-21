@@ -75,6 +75,60 @@ const Testimonials = () => {
             </li>
           </ul>
 
+          <ul className="hidden space-y-8 lg:block">
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a href="https://twitter.com/paraga" className="cursor-pointer">
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-base-100 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="/prasad-boye.jpeg"
+                        className="w-12 h-12 bg-center bg-cover rounded-full"
+                        alt="Prasad Boye"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold ">Prasad Boye</h3>
+                        <p className=" text-md">Frontend developer</p>
+                      </div>
+                    </div>
+                    <p className="leading-normal  text-md">
+                      Exceptional knowledge and initiative make Sameer an
+                      indispensable member of any team!
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li className="text-sm leading-6">
+              <div className="relative group">
+                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
+                <a
+                  href="https://twitter.com/tim_cook"
+                  className="cursor-pointer"
+                >
+                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-base-100 ring-1 ring-gray-900/5">
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src="/empty.jpeg"
+                        className="w-12 h-12 bg-center bg-cover rounded-full"
+                        alt="Rahman"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold ">Rahman</h3>
+                        <p className=" text-md">React Native developer</p>
+                      </div>
+                    </div>
+                    <p className="leading-normal  text-md">
+                      Commitment and eagerness to support others distinguish
+                      Sameer as an excellent colleague!
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+
           <ul className="hidden space-y-8 sm:block">
             {/* Syfulla */}
             <li className="text-sm leading-6">
@@ -127,65 +181,6 @@ const Testimonials = () => {
                       Sameer is an outstanding developer, swiftly grasping
                       concepts, executing tasks with precision, and showcasing
                       exceptional problem-solving skills!
-                    </p>
-                  </div>
-                </a>
-              </div>
-            </li>
-          </ul>
-
-          <ul className="hidden space-y-8 lg:block">
-            <li className="text-sm leading-6">
-              <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
-                <a href="https://twitter.com/paraga" className="cursor-pointer">
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-base-100 ring-1 ring-gray-900/5">
-                    <div className="flex items-center space-x-4">
-                      <img
-                        src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg"
-                        className="w-12 h-12 bg-center bg-cover rounded-full"
-                        alt="Parag Agrawal"
-                      />
-                      <div>
-                        <h3 className="text-lg font-semibold ">
-                          Parag Agrawal
-                        </h3>
-                        <p className=" text-md">CEO of Twitter</p>
-                      </div>
-                    </div>
-                    <p className="leading-normal  text-md">
-                      Enim neque volutpat ac tincidunt vitae semper. Mattis
-                      aliquam faucibus purus in massa tempor. Neque vitae tempus
-                      quam pellentesque nec. Turpis cursus in hac habitasse
-                      platea dictumst.
-                    </p>
-                  </div>
-                </a>
-              </div>
-            </li>
-            <li className="text-sm leading-6">
-              <div className="relative group">
-                <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
-                <a
-                  href="https://twitter.com/tim_cook"
-                  className="cursor-pointer"
-                >
-                  <div className="relative p-6 space-y-6 leading-none rounded-lg bg-base-100 ring-1 ring-gray-900/5">
-                    <div className="flex items-center space-x-4">
-                      <img
-                        src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
-                        className="w-12 h-12 bg-center bg-cover rounded-full"
-                        alt="Tim Cook"
-                      />
-                      <div>
-                        <h3 className="text-lg font-semibold ">Tim Cook</h3>
-                        <p className=" text-md">CEO of Apple</p>
-                      </div>
-                    </div>
-                    <p className="leading-normal  text-md">
-                      Diam quis enim lobortis scelerisque fermentum dui faucibus
-                      in ornare. Donec pretium vulputate sapien nec sagittis
-                      aliquam malesuada bibendum.
                     </p>
                   </div>
                 </a>
