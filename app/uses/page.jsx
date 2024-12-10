@@ -172,8 +172,10 @@ const Uses = () => {
             </h2>
             <ul className="list-disc list-inside">
               <li className="font-medium">Asus Vivobook 16x</li>
-              <li className="font-medium">Ipad 9th gen</li>
-              <li className="font-medium">Samsung Galaxy F15</li>
+              <li className="font-medium">Iphone SE 2020</li>
+              <li className="font-medium">
+                CosmicByte CB-GK-26 Mechanical Keyboard{" "}
+              </li>
             </ul>
           </div>
         </div>

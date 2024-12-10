@@ -9,13 +9,13 @@ const Navbar = () => {
         className="bg-neutral
         my-5 mx-10 md:mx-20 rounded-3xl flex flex-wrap py-8 px-5 sm:px-10 md:px-20 lg:px-32 xl:px-44 flex-col md:flex-row items-center"
       >
-        <a
+        <Link
           href="/"
           className="flex title-font font-medium items-center mb-4 md:mb-0"
         >
           <FaCode className="w-10 h-10 text-white p-2 bg-secondary rounded-full" />
           <span className="ml-3 text-xl">Sameer</span>
-        </a>
+        </Link>
         <nav className="md:ml-auto flex gap-4 items-center text-base justify-center">
           <Link
             href="/uses"
