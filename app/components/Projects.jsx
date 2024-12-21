@@ -9,9 +9,7 @@ const Projects = () => {
         <div className="w-full flex justify-center">
           <h1 className="mb-5 text-4xl font-bold md:text-center md:text-5xl">
             Have a glance at a few of my{" "}
-            <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text">
-              projects.
-            </span>
+            <span className="text-blue-500">projects</span>.
           </h1>
         </div>
         <div className="-m-4 flex flex-wrap">

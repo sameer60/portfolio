@@ -27,21 +27,15 @@ const Hero = () => {
         style={{ zIndex: 2 }}
       >
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 class="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl py-6 pr-6 text-balance">
+          <h1 class="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl py-6 pr-6 text-balance text-neutral-content">
             <span class="block">
-              Proficient in{" "}
-              <span class="text-transparent bg-clip-text bg-gradient-to-tr to-cyan-500 from-blue-600">
-                designing{" "}
-              </span>
+              Proficient in <span class="text-[#3371ff]">designing </span>
               and
-              <span class="text-transparent bg-clip-text bg-gradient-to-tr to-cyan-500 from-blue-600">
-                {" "}
-                high-end{" "}
-              </span>
+              <span class="text-[#3371ff]"> high-end </span>
               user interfaces.
             </span>
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-tight text-md sm:text-lg md:text-xl lg:text-2xl font-extrabold text-neutral-content">
             Hi there! I'm <span className="text-info font-bold">Sameer</span>, a
             frontend developer passionate about crafting captivating web
             experiences. I create clean, user-friendly designs and help

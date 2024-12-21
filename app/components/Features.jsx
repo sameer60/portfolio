@@ -12,9 +12,7 @@ const Features = () => {
           <div className="flex flex-col text-center mt-40 w-full mb-20">
             <h2 className="mb-5 text-4xl font-bold md:text-center md:text-5xl">
               A frontend 😄 developer with a{" "}
-              <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text">
-                design sense.
-              </span>
+              <span className="text-blue-500">design sense</span>.
             </h2>
             <h1 className="sm:text-lg text-md font-medium title-font text-default">
               Building websites that look good is the first step, but it's also
@@ -66,9 +64,9 @@ const Features = () => {
                   Cutting Edge
                 </h1>
                 <p className="px-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                  iure inventore amet modi accusantium vero perspiciatis,
-                  incidunt dicta sed aspernatur!
+                  I stay ahead in web development by mastering the latest tools
+                  like ReactJS, NextJS, and Tailwind CSS, ensuring innovative
+                  and efficient solutions.
                 </p>
               </div>
             </div>
