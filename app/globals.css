@@ -1,22 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  font-family: "Catamaran";
-}
-.retro-card {
-  box-shadow: 1rem 1rem 0 -0.25rem #94e5e6, 1rem 1rem 0 0 black;
-  transition: 0.1s box-shadow;
-}
-.retro-card:hover {
-  box-shadow: 0.5rem 0.5rem 0 -0.25rem #94e5e6, 0.5rem 0.5rem 0 0 black;
-}
-.truncate-text {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  font-family: "Outfit";
 }
 
 /*Start Animations*/
