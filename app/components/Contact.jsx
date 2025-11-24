@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
+import Button from "./Button";
 
 const Contact = () => {
   const handleSendMessage = (notify) => {
@@ -170,13 +171,13 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex justify-center md:justify-end sm:col-span-2">
-              <button
+              <Button
                 type="submit"
                 onClick={handleSendMessage}
-                className="btn btn-primary"
+                variant="primary"
               >
                 <span>Send Message</span>
-              </button>
+              </Button>
             </div>
           </form>
         </div>

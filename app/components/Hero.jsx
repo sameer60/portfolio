@@ -4,6 +4,7 @@ import React from "react";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Link from "next/link";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -42,21 +43,21 @@ const Hero = () => {
             businesses create beloved products for the web.
           </p>
           <div className="flex gap-3 justify-center">
-            <Link
+            <Button
               href="#contact"
-              className="btn btn-primary inline-flex border-0 py-2 px-6 focus:outline-none text-lg animate-bounce focus:animate-none hover:animate-none text-md font-medium mt-3 rounded-lg tracking-wide"
+              variant="primary"
+              className="animate-bounce focus:animate-none hover:animate-none text-md font-medium mt-3 rounded-lg tracking-wide"
             >
               Get in touch &nbsp; <FaLongArrowAltRight />
-            </Link>
-            <a
-              className="btn btn-secondary inline-flex border-0 py-2 px-6 focus:outline-none text-lg"
+            </Button>
+            <Button
               href="/Resume.pdf"
+              variant="secondary"
               target="_blank"
-              rel="noreferrer"
             >
               resume &nbsp; <MdOutlineFileDownload />
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-gray-800"></span>
-            </a>
+            </Button>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-8 md:mb-0">
