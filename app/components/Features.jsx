@@ -1,8 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import { ImMobile2 } from "react-icons/im";
-import { BsStars } from "react-icons/bs";
-import { IoPlanet } from "react-icons/io5";
+import FeatureCard from "./FeatureCard";
+import { featuresData } from "../data/features";
 
 const Features = () => {
   return (
@@ -22,53 +21,17 @@ const Features = () => {
           </div>
           <div className="w-full bg-base-100 pt-16 mb-40 p-4">
             <div className="grid gap-14 md:grid-cols-3 md:gap-5">
-              <div className="rounded-xl bg-neutral p-6 text-center shadow-xl">
-                <div className="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-teal-400 shadow-lg shadow-teal-500/40">
-                  <ImMobile2 className="h-8 w-8 text-white" />
-                </div>
-                <h1 className="mb-3 text-xl font-medium lg:px-14">
-                  Responsive Design
-                </h1>
-                <p className="px-4">
-                  The world has gone mobile - so why not your website? I
-                  specialize in responsive web design so you never have to worry
-                  about your content being seen by customers or users no matter
-                  what device they're on.
-                </p>
-              </div>
-              <div
-                data-aos-delay="150"
-                className="rounded-xl bg-neutral p-6 text-center shadow-xl"
-              >
-                <div className="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full shadow-lg bg-rose-500 shadow-rose-500/40">
-                  <BsStars className="h-8 w-8 text-white" />
-                </div>
-                <h1 className="text-darken mb-3 text-xl font-medium lg:px-14 ">
-                  Clean Code
-                </h1>
-                <p className="px-4">
-                  I keep myself up-to-date on the newest tools and technologies
-                  like ReactJS, NextJS or Tailwind CSS (just to name a few). I
-                  Choose best tools for the task at hand to implement them in
-                  the most effective way.
-                </p>
-              </div>
-              <div
-                data-aos-delay="150"
-                className="rounded-xl bg-neutral p-6 text-center shadow-xl"
-              >
-                <div className="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full shadow-lg bg-sky-500 shadow-sky-500/40">
-                  <IoPlanet className="h-8 w-8 text-white" />
-                </div>
-                <h1 className="text-darken mb-3 text-xl font-medium lg:px-14 ">
-                  Cutting Edge
-                </h1>
-                <p className="px-4">
-                  I stay ahead in web development by mastering the latest tools
-                  like ReactJS, NextJS, and Tailwind CSS, ensuring innovative
-                  and efficient solutions.
-                </p>
-              </div>
+              {featuresData.map((feature) => (
+                <FeatureCard
+                  key={feature.id}
+                  icon={feature.icon}
+                  title={feature.title}
+                  description={feature.description}
+                  iconWrapperClass={feature.iconWrapperClass}
+                  delay={feature.delay}
+                  titleClass={feature.titleClass}
+                />
+              ))}
             </div>
           </div>
         </div>
