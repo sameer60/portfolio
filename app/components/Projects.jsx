@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
         <div className="-m-4 flex flex-wrap">
           <Link
-            href="https://sameer-job-app.vercel.app/"
+            href="https://play.watchvertical.co/"
             target="_blank"
             className="max-w-2xl mx-auto mt-8 hover:-translate-y-1 transition cursor-pointer"
           >
@@ -24,20 +24,20 @@ const Projects = () => {
               <span className="w-3 h-3 rounded-full bg-green-400"></span>
               <div className="flex items-center ml-28 w-72 overflow-hidden">
                 <span className="bg-base-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 truncate">
-                  https://sameer-jobby-app.vercel.app
+                  https://play.watchvertical.co
                 </span>
               </div>
             </div>
             <div className="bg-gray-100 border-t-0 w-full rounded-md">
               <img
                 className="w-full aspect-video rounded-b-md"
-                src="https://res.cloudinary.com/didtdrgsj/image/upload/v1711731529/Screenshot_from_2024-03-29_22-25-13_krjtot.png"
+                src="/vertical-tv.png"
                 alt="blog"
               />
             </div>
           </Link>
           <Link
-            href="https://www.softechautomation.com/"
+            href="https://studio.evertutor.ai"
             target="_blank"
             className="max-w-2xl mx-auto mt-8 hover:-translate-y-1 transition cursor-pointer"
           >
@@ -47,14 +47,14 @@ const Projects = () => {
               <span className="w-3 h-3 rounded-full bg-green-400"></span>
               <div className="flex items-center ml-28 w-72 overflow-hidden">
                 <span className="bg-base-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 truncate">
-                  https://www.softechautomation.com
+                  https://studio.evertutor.ai
                 </span>
               </div>
             </div>
             <div className="bg-gray-100 border-t-0 w-full rounded-md">
               <img
                 className="w-full aspect-video rounded-b-md"
-                src="/softech.png"
+                src="/et-studio.png"
                 alt="softech"
               />
             </div>
