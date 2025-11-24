@@ -5,25 +5,22 @@ import React from "react";
 import { FaCode } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import ExternalLink from "./ExternalLink";
 
 const Footer = () => {
   return (
     <footer className="flex flex-col space-y-10 justify-center m-10">
       <div className="flex justify-center space-x-5">
-        <a
+        <ExternalLink
           href="https://www.linkedin.com/in/shaiksameerbasha/"
-          rel="noopener noreferrer"
-          target="_blank"
         >
           <FaLinkedin className="w-8 h-8 text-blue-700" />
-        </a>
-        <a
+        </ExternalLink>
+        <ExternalLink
           href="https://twitter.com/sameer_on_x"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <FaSquareXTwitter className="w-8 h-8" />
-        </a>
+        </ExternalLink>
       </div>
       <nav className="flex justify-center flex-wrap gap-6 font-medium">
         <Link
@@ -35,14 +32,12 @@ const Footer = () => {
         </Link>
         <p className="text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
           © 2024 Sameer —
-          <Link
+          <ExternalLink
             href="https://t.me/sameer_on_tg"
             className="ml-1"
-            rel="noopener noreferrer"
-            target="_blank"
           >
             @sameer_on_tg
-          </Link>
+          </ExternalLink>
         </p>
       </nav>
     </footer>
