@@ -4,7 +4,7 @@ import React from "react";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Link from "next/link";
-import Button from "./Button";
+import Button from "@/components/ui/Button";
 
 const Hero = () => {
   return (

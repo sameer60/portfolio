@@ -5,7 +5,7 @@ import React from "react";
 import { FaCode } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import ExternalLink from "./ExternalLink";
+import ExternalLink from "@/components/ui/ExternalLink";
 
 const Footer = () => {
   return (

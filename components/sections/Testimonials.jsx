@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import TestimonialCard from "./TestimonialCard";
-import { testimonialsData } from "../data/testimonials";
+import TestimonialCard from "@/components/ui/TestimonialCard";
+import { testimonialsData } from "@/data/testimonials";
 
 const Testimonials = () => {
   return (

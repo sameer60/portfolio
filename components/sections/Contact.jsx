@@ -3,7 +3,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
-import Button from "./Button";
+import Button from "@/components/ui/Button";
 
 const Contact = () => {
   const handleSendMessage = (notify) => {

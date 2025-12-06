@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ExternalLink from "./ExternalLink";
+import ExternalLink from "@/components/ui/ExternalLink";
 
 const UsesSection = ({ title, items, icon }) => {
     return (

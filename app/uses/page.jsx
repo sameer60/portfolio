@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
-import UsesSection from "../components/UsesSection";
-import { usesData } from "./data";
+import UsesSection from "@/components/sections/UsesSection";
+import { usesData } from "@/data/uses";
 
 const Uses = () => {
   return (

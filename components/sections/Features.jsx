@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import FeatureCard from "./FeatureCard";
-import { featuresData } from "../data/features";
+import FeatureCard from "@/components/ui/FeatureCard";
+import { featuresData } from "@/data/features";
 
 const Features = () => {
   return (
