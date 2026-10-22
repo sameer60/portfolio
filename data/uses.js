@@ -8,30 +8,9 @@ export const usesData = [
         items: [
             {
                 link: {
-                    href: "https://ubuntu.com/download/desktop",
-                    text: "Ubuntu",
+                    href: "https://omarchy.org/",
+                    text: "Omarchy",
                 },
-            },
-            {
-                prefix: "Desktop Environment",
-                text: "Gnome",
-                className: "font-semibold",
-                textClassName: "font-medium",
-            },
-            {
-                content: (
-                    <span className="font-semibold">
-                        Themes:{" "}
-                        <span>
-                            <ExternalLink
-                                href="https://www.gnome-look.org/p/1403328"
-                                className="underline font-medium"
-                            >
-                                Whitesur Dark,
-                            </ExternalLink>
-                        </span>
-                    </span>
-                ),
             },
         ],
     },
@@ -41,8 +20,8 @@ export const usesData = [
         items: [
             {
                 link: {
-                    href: "https://code.visualstudio.com/",
-                    text: "Visual Studio Code",
+                    href: "https://antigravity.google/",
+                    text: "Google Antigravity",
                 },
             },
             {
@@ -104,13 +83,7 @@ export const usesData = [
         items: [
             {
                 prefix: "Browser",
-                text: "Google Chrome, Firefox",
-                className: "font-semibold",
-                textClassName: "font-medium",
-            },
-            {
-                prefix: "Miscellaneous",
-                text: "Simple screen recorder, Auto-cpu-freq",
+                text: "Google Chrome, Brave",
                 className: "font-semibold",
                 textClassName: "font-medium",
             },
@@ -121,15 +94,23 @@ export const usesData = [
         icon: "computer.svg",
         items: [
             {
+                prefix: "Laptop",
                 text: "Asus Vivobook 16x",
                 className: "font-medium",
             },
             {
-                text: "Iphone SE 2020",
+                prefix: "Phone",
+                text: "Xiaomi 11 Lite NE 5G",
                 className: "font-medium",
             },
             {
-                text: "CosmicByte CB-GK-26 Mechanical Keyboard ",
+                prefix: "Keyboard",
+                text: "CosmicByte CB-GK-26 Mechanical Keyboard",
+                className: "font-medium",
+            },
+            {
+                prefix: "Mouse",
+                text: "Logitech M171 Mouse",
                 className: "font-medium",
             },
         ],

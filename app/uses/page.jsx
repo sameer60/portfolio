@@ -26,7 +26,7 @@ const Uses = () => {
         <div className="flex justify-center w-full mb-16">
           <img
             className="rounded-2xl object-cover lg:h-96 h-60 md:h-72"
-            src="https://res.cloudinary.com/didtdrgsj/image/upload/v1713576040/neofetch_wzy0xw.jpg"
+            src="https://res.cloudinary.com/didtdrgsj/image/upload/v1792643602/screenshot-2026-10-22_10-03-02_hdo2pb.png"
             alt="neofetch"
           />
         </div>
