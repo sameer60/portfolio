@@ -24,11 +24,24 @@ const Uses = () => {
           what others use, so I added this for anyone curious about it.
         </p>
         <div className="flex justify-center w-full mb-16">
-          <img
-            className="rounded-2xl object-cover lg:h-96 h-60 md:h-72"
-            src="https://res.cloudinary.com/didtdrgsj/image/upload/v1792643602/screenshot-2026-10-22_10-03-02_hdo2pb.png"
-            alt="neofetch"
-          />
+          <div className="w-full max-w-4xl rounded-2xl overflow-hidden bg-neutral hypr-card">
+            <div className="w-full h-10 bg-neutral border-b border-base-300 flex items-center justify-between px-4">
+              <div className="flex items-center space-x-2">
+                <span className="w-3 h-3 rounded-full bg-error/80 border border-error"></span>
+                <span className="w-3 h-3 rounded-full bg-warning/80 border border-warning"></span>
+                <span className="w-3 h-3 rounded-full bg-success/80 border border-success"></span>
+              </div>
+              <span className="text-xs font-mono font-medium text-neutral-content/70">
+                sameer@omarchy: ~
+              </span>
+              <div className="w-12"></div>
+            </div>
+            <img
+              className="w-full h-auto block"
+              src="https://res.cloudinary.com/didtdrgsj/image/upload/v1792643602/screenshot-2026-10-22_10-03-02_hdo2pb.png"
+              alt="neofetch"
+            />
+          </div>
         </div>
 
         {usesData.map((section, index) => (

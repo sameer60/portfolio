@@ -11,7 +11,7 @@ const Features = () => {
           <div className="flex flex-col text-center mt-40 w-full mb-20">
             <h2 className="mb-5 text-4xl font-bold md:text-center md:text-5xl">
               A frontend 😄 developer with a{" "}
-              <span className="text-blue-500">design sense</span>.
+              <span className="text-primary">design sense</span>.
             </h2>
             <h1 className="sm:text-lg text-md font-medium title-font text-default">
               Building websites that look good is the first step, but it's also

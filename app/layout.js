@@ -13,7 +13,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="madara">
+    <html lang="en" data-theme="catppuccin-mocha" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var saved = localStorage.getItem('portfolio-theme');
+                  if (saved) {
+                    document.documentElement.setAttribute('data-theme', saved);
+                  } else {
+                    document.documentElement.setAttribute('data-theme', 'catppuccin-mocha');
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
       <body className={inter.className}>
         <Navbar />
         <main>{children}</main>

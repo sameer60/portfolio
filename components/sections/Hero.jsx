@@ -28,14 +28,14 @@ const Hero = () => {
         <div className="max-w-4xl flex flex-col items-center text-center">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl py-6 text-balance text-neutral-content">
             <span className="block">
-              Proficient in <span className="text-[#3371ff]">designing </span>
+              Proficient in <span className="text-primary">designing </span>
               and
-              <span className="text-[#3371ff]"> high-end </span>
+              <span className="text-secondary"> high-end </span>
               user interfaces.
             </span>
           </h1>
           <p className="mb-8 leading-tight text-md sm:text-lg md:text-xl lg:text-2xl font-extrabold text-neutral-content max-w-2xl">
-            Hi there! I'm <span className="text-info font-bold">Sameer</span>, a
+            Hi there! I'm <span className="text-primary font-bold">Sameer</span>, a
             frontend developer passionate about crafting captivating web
             experiences. I create clean, user-friendly designs and help
             businesses create beloved products for the web.
@@ -44,7 +44,7 @@ const Hero = () => {
             <Button
               href="#contact"
               variant="primary"
-              className="text-md font-medium rounded-lg tracking-wide"
+              className="text-md font-medium rounded-xl tracking-wide border border-primary/50 hover:bg-primary/90"
             >
               Get in touch &nbsp; <FaLongArrowAltRight />
             </Button>
@@ -52,9 +52,10 @@ const Hero = () => {
               href="/Resume.pdf"
               variant="secondary"
               target="_blank"
+              className="text-md font-medium rounded-xl tracking-wide border border-base-300"
             >
               resume &nbsp; <MdOutlineFileDownload />
-              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-gray-800"></span>
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary"></span>
             </Button>
           </div>
         </div>

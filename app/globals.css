@@ -86,7 +86,8 @@
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(190, 4, 242, 0.2);
+  background: oklch(var(--p, 0.7 0.15 300) / 0.18);
+  border: 1px solid oklch(var(--p, 0.7 0.15 300) / 0.25);
   animation: animate 25s linear infinite;
   bottom: -150px;
 }
@@ -186,5 +187,22 @@
 
 /* Scroll To Top Button Styles */
 .scroll-to-top {
-  @apply bg-blue-500 text-white;
+  @apply bg-primary text-primary-content border border-primary/60 hover:bg-primary/90;
+}
+
+/* Minimalist Omarchy / Hyprland Rice Window & Border Styling */
+.hypr-card {
+  border: 1px solid oklch(var(--b3) / 0.85);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.hypr-card:hover {
+  border-color: oklch(var(--p) / 0.85);
+}
+
+.hypr-nav {
+  border: 1px solid oklch(var(--b3) / 0.85);
+  transition: border-color 0.2s ease;
+}
+.hypr-nav:hover {
+  border-color: oklch(var(--p) / 0.85);
 }

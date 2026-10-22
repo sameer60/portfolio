@@ -4,10 +4,10 @@ const FeatureCard = ({ icon, title, description, iconWrapperClass, delay, titleC
     return (
         <div
             data-aos-delay={delay}
-            className="rounded-xl bg-neutral p-6 text-center shadow-xl"
+            className="rounded-2xl bg-neutral p-6 text-center hypr-card relative group"
         >
             <div
-                className={`mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full shadow-lg ${iconWrapperClass}`}
+                className={`mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-2xl border border-base-300 ${iconWrapperClass}`}
             >
                 {icon}
             </div>
